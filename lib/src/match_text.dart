@@ -31,7 +31,7 @@ class MatchText {
 
   /// A callback function that takes the [text] the matches the [pattern] and returns
   /// the [Widget] to be displayed inside a [WidgetSpan]
-  Widget Function({String text, String pattern}) renderWidget;
+  Widget Function({String text, String pattern})? renderWidget;
 
   final RegexOptions regexOptions;
 
